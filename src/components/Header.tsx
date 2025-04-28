@@ -28,13 +28,16 @@ export function Header({ className }: HeaderProps) {
 
 function Logo() {
   return (
-    <div className="flex flex-col items-center">
-      <h1 className="text-3xl md:text-4xl font-bold font-serif text-gold">
-        <span>R</span>
-        <span className="gold-gradient">&</span>
-        <span>J</span>
-      </h1>
-      <p className="text-sm text-white/80 mt-1">Ecommerce</p>
+    <div className="flex items-center gap-2">
+      <img 
+        src="/lovable-uploads/logo.png" 
+        alt="R&J Ecommerce" 
+        className="h-12 w-auto"
+      />
+      <div className="flex flex-col">
+        <h1 className="text-2xl font-bold text-gold">R&J</h1>
+        <p className="text-sm text-white/80">Ecommerce</p>
+      </div>
     </div>
   );
 }
