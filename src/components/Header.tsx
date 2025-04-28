@@ -30,7 +30,7 @@ function Logo() {
   return (
     <div className="flex items-center gap-2">
       <img 
-        src="/lovable-uploads/logo.png" 
+        src="/lovable-uploads/b8bab588-acd4-42a9-881d-84990a3616bd.png" 
         alt="R&J Ecommerce" 
         className="h-12 w-auto"
       />
